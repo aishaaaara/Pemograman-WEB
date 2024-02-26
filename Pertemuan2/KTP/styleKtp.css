@@ -1,0 +1,64 @@
+.container-satu {
+    width: 800px;
+    margin: 80px auto;
+    background-color: #7FC7D9;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.header{
+    text-align: center;
+    margin-left: 25px;
+    text-align: center;
+    font-family: sans-serif;
+}
+h1 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+h2 {
+    color: black;
+    font-size: 25px;
+}
+.ktp-info td, .ktp-info th {
+    padding: 5px;
+}
+.ktp-info{
+font-family: Arial, Helvetica, sans-serif
+}
+.sub-header{
+    font-family:monospace;
+    font-size: 30px;
+    padding: 10px;
+}
+.info2{
+    margin-left: 20px;  
+}
+tr{
+    font-size: 18px;
+}
+.image-cell {
+    text-align: right;
+    margin-right: 2000x;    
+}
+.image-cell img{
+    float: right;
+    margin-left: 90px;
+}
+.detail{
+    padding-left: 20px;
+}
+.indent td:first-child {
+    padding-left: 55px; 
+}
+.detail{
+    margin-right: 70px;
+    text-align: right;
+    float: right;
+}
+.detail2{
+    margin-right: 60px;
+    text-align: right;
+    float: right;
+}
