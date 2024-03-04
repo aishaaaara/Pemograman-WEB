@@ -72,7 +72,7 @@ $data_siswa = array(
 
 $rata_rata_kelas = array_sum($data_siswa) / count($data_siswa);
 echo "<br>";
-echo "Daftar siswa dengan nilai di atas rata-rata kelas:\n";
+echo "Daftar siswa dengan nilai di atas rata-rata kelas :\n";
 foreach ($data_siswa as $siswa => $nilai) {
     if ($nilai > $rata_rata_kelas) {
         echo " <br> $siswa:  $nilai\n";
