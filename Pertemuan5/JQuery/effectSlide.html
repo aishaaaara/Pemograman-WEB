@@ -1,0 +1,21 @@
+<!-- Praktikum Bagian 6. Effect Slide -->
+<!DOCTYPE html>
+<!-- pembuatan code baru dengan menerapkan Efek slide yang disediakan jQuery digunakan untuk 
+menghilangkan atau menampilkan elemen seolah-olah seperti membuka/menutup sesuatu -->
+<head>
+    <link rel="stylesheet" type="text/css" href="styleSlide.css"/>
+    <script src="jquery-3.7.1.js"></script>
+    <script>
+        $(document) .ready(function(){
+            
+            $("#flip").click(function(){ 
+                $("#kotak2").slideToggle("slow"); 
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="flip">Klik untuk Efek Slide</div>
+    <div id="kotak2">Selamat Pagi</div>
+</body>
+</html>

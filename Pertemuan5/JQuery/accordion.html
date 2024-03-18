@@ -1,0 +1,39 @@
+<!-- Accordion berfungsi mengelompokkan konten dalam panel-panel yang terpisah -->
+<html>
+<head>
+    <link rel="stylesheet" href="jquery-ui-1.23.2/jquery-ui.css" />
+    <script src="jquery-3.6.0.js"></script>
+    <script src="jquery-ui-1.23.2/jquery-ui.js"></script>
+    <script>
+        $(function(){
+            $("#jQuery_accordion").accordion();
+        });
+    </script>
+    </head> 
+    <body>
+        <!-- Kontainer untuk accordion -->
+    <div id="jQuery_accordion">
+        <!-- Panel pertama -->
+        <h3>header 1</h3>
+        <p>This is section 1.
+            Place your content here in paragraphs or use div elements etc.
+        </p>
+        <!-- Panel kedua -->
+        <h3>header 2</h3>
+        <p>This is section 2, you can also include images like this :
+            <br> <img src="img/gambar2.jpg"/>
+        </p>
+        <!-- Panel ketiga -->
+        <h3>header 3</h3>
+        <div>
+            <p>This is section 3. Content can include listing as well</p>
+            <!-- Daftar dalam panel ketiga -->
+            <ol>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>

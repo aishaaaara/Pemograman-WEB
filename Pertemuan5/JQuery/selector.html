@@ -1,0 +1,38 @@
+<!-- Praktikum Bagian 3. Selector -->
+<!DOCTYPE html>
+<!-- Code pengunaan selector, untuk emmahami pengunaan selector tag, id, class-->
+<html lang="en">
+<head>
+    <script src="jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Ketika tombol di-klik, mengatur aksi untuk menyembunyikan elemen-elemen yang dipilih
+            $("button").click(function(){
+                // Menyembunyikan semua elemen h2
+                $("h2").hide();
+                // Menyembunyikan semua elemen dengan kelas "subjudul"
+                $(".subjudul").hide();
+                // Menyembunyikan elemen dengan id "paragraf"
+                $("#paragraf").hide();
+                // Menyembunyikan elemen dengan id "paragraf" yang memiliki kelas "dua"
+                $("#paragraf.dua").hide();
+                // Menyembunyikan elemen p di dalam div yang memiliki kelas "paragraf"
+                $("#div p.paragraf").hide();
+            });
+        });
+    </script>
+</head>
+<body>
+    <h2>Ini adalah Judul Bab</h2>
+    <h3 class="subjudul">Ini adalah Sub Judul Bab</h3>
+    <p id="paragraf">Ini adalah paragraf pertama</p>
+    <p id="paragraf" class="dua">Ini adalah paragraf kedua</p>
+        <div>
+            <p class="paragraf">
+                Ini adalah paragraf ketiga
+            </p>
+        </div>
+            <p>Ini adalah paragraf yang akan tetap ditampilkan</p>
+            <button> Klik Saya! </button>
+</body>
+</html>

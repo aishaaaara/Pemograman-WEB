@@ -1,0 +1,27 @@
+    <!-- Praktikum Bagian 7. Animasi MTEHOD CHAINING-->
+    <!DOCTYPE html>
+    <!-- pembuatan code dengan menerapkan Chaining di dalam jQuery memungkinkan untuk memberikan 
+        beberapa method animasi ke dalam satu elemen menggunakan satu statement -->
+    <html lang="en">
+        <head>
+            <link rel="stylesheet" type="text/css" href="styleAnimate.css"/>
+                <script src="jquery-3.7.1.js"></script>
+                <script>
+                // Ketika tombol diklik, jalankan animasi chaining pada elemen dengan kelas "box"
+                $(document).ready(function(){
+                $("button").click(function(){
+                $(".box")
+                .animate({width: "300px"})
+                .animate({height: "300px"})
+                .animate({marginLeft: "150px"})
+                .animate({borderWidth: "10px"})
+                .animate({opacity: 0.5});
+                });
+            });
+            </script>
+        </head>
+        <body>
+            <button type="button">Start Animation</div>
+            <div class="box"></div>
+        </body>
+        </html>
